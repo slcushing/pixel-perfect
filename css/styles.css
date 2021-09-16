@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.container {
+  display: flex;
+  background-color: lightgrey;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+.content-boxes {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  width: 80%;
+  flex-direction: column;
+}
+
+.travel1 {
+  background-color: #fffd98;
+}
+
+.family {
+  background-color: #bde4a7;
+}
+
+.travel2 {
+  background-color: #b3d2b2;
+}
+
+.lifestyle {
+  background-color: #9fbbcc;
+}
+
+.entertainment {
+  background-color: #7a9cc6;
+}
+
+.bio {
+  background-color: hotpink;
+}
+
+.popular {
+  background-color: royalblue;
+}
+
+.latest {
+  background-color: green;
+}
+
+.instagram {
+  background-color: purple;
+}
+
+.aside {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  width: 20%;
+  flex-direction: column;
+  align: left;
+}
+
+/*# sourceMappingURL=styles.css.map */
