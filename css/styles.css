@@ -114,6 +114,7 @@ h3 {
 .hogwarts {
   object-fit: cover;
   width: 100%;
+  height: 9.5em;
 }
 
 .beachjack {
@@ -155,9 +156,34 @@ ul.icons {
   list-style-type: none;
   display: flex;
   align-content: center;
+  gap: 13px;
   color: #ccc;
   display: flex;
-  padding: 11px;
+  padding: 10px;
+  font-size: 13px;
+  margin-right: 10%;
+}
+
+ul.sidecons {
+  list-style-type: none;
+  display: flex;
+  gap: 13.5px;
+  color: #ccc;
+  font-size: 14px;
+  padding: 10px 10px 20px 10px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.sidecons li {
+  border: solid 1px #ccc;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
