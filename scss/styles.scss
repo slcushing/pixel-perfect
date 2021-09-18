@@ -70,46 +70,53 @@ body {
 .blackmountain {
     object-fit: cover;
     width:100%;
-    height: 75%;
+    height: 23.5em;
 }
 
 .category {
     font-family: Lato;
     font-weight: bold;
+    color: #CB613D;
     font-size: 12px;
+    margin-top: 3.7em;
 }
 
 h2 {
     font-family: Oswald;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: -15px;
 }
 
-article {
+.content-boxes article {
     font-family: Lato;
-    font-size: 14px;
-    margin: 10px;
+    font-size: 15px;
+    margin: 15px 10px 35px 10px;
     line-height: 1.8;
     padding: 20px;
     
 }
 
-.continue {
+button.continue {
     font-family: Lato;
     font-size: 12px;
-    font-weight: 700;
+    font-weight: 650;
     background-color: white;
     border: #CB613D solid 1px;
-    width: 175px;
+    width: 160px;
     color: #CB613D;
-    padding: 8px;
+    padding: 11px;
     letter-spacing: 1px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
 }
 
 h3 {
     font-family: Oswald;
     font-size: 20px;
     font-weight:500;
+    margin-top: 1px;
 }
 
 .hogwarts {
@@ -162,10 +169,20 @@ ul.icons {
     align-content: center;
     gap: 13px;
     color:#ccc;
-    display:flex;
     padding:10px;
     font-size: 13px;
     margin-right:10%;
+}
+
+
+.aside article {
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 15px;
+    margin: -10px 5px 5px 5px;
+    
+
 }
 
 ul.sidecons {
@@ -191,6 +208,26 @@ ul.sidecons {
 
 }
 
-
-
+.bottombar {
+    font-family: Lato;
+    font-size: 14px;
+    font-style: italic;
+    display: flex;
+    padding-left: 2em;
+    border-top: solid 1.5px #ccc;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+    
+.bottomicons {    
+    list-style-type: none;
+    display: flex;
+    gap: 13px;
+    color: #ccc;
+    font-size: 15px;
+    align-items: center;
+}
 
