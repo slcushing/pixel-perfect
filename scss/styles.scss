@@ -146,6 +146,7 @@ nav {
     display: flex;
     justify-content: space-between;
     
+    
 }
 
 ul {
@@ -197,7 +198,7 @@ ul.sidecons {
     gap: 13.5px;
     color: #ccc;
     font-size: 14px;
-    padding: 10px 10px 30px 10px;
+    padding: 10px 10px 40px 10px;
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
@@ -220,7 +221,7 @@ ul.sidecons {
     font-size: 14px;
     font-style: italic;
     display: flex;
-    padding-left: 2em;
+    padding-top: 2px;
     padding-bottom: 2.8em;
     border-top: solid 1.5px #ccc;
     width: 90%;
@@ -239,7 +240,7 @@ ul.sidecons {
     align-items: center;
 }
 
-h4 {
+.popular h4 {
     font-family: Oswald;
     font-size: 14px;
     font-weight:500;
@@ -255,6 +256,7 @@ h4 {
     display:flex;
     flex-direction: column;
     margin-bottom: 2.5em;
+    padding-bottom: 2em;
 }
 
 .popular h3 {
@@ -266,24 +268,43 @@ h4 {
     font-size: 14px;
     font-style: italic;
     display: flex;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     margin-left: 30px;
     
 }
 
 .popular img {
     object-fit: cover;
-    width: 85%;
-    margin-bottom: 8px;
-    margin-top: 15px;
-    margin-left: 30px;
+    width: 80%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 40px;
+    display: flex;
+    align-content: center;
+}
+
+.jack {
+    border-top: solid 1px #aaaaaa;
+    padding-top: 1.3em;
+}
+
+.coffee {
+    border-top: solid 1px #aaaaaa;
+    padding-top: 1.3em;
 }
 
 .latest {
     display:flex;
     flex-direction: column;
-    align-items:center;
+    justify-content: space-between;
     margin-bottom: 2.5em;
+}
+
+.latest img {
+    object-fit: cover;
+    width: 28%;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .latest span {
@@ -292,8 +313,50 @@ h4 {
     font-style: italic;
 }
 
-.latest img {
-    object-fit: cover;
-    width:100%;
+.latest h4 {
+    font-family: Oswald;
+    font-size: 14px;
+    font-weight:500;
+    // margin-top: 1px;
+    // margin-left: 30px;
+    // margin-bottom: 15px;
+}
+
+.latest h3 {
+    padding-top: 30px;
+}
+
+.instagram {
+    padding-top:30px;
+}
+
+.row {
     display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    max-width: 45%;
+    padding: 0px 6px 30px 6px;
+}
+
+.column img {
+    object-fit: cover;
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.pic-ribbon {
+    display: flex;
+    margin: 0;
+}
+
+.pic-ribbon img {
+    display: flex;
+    height: 20%;
 }
