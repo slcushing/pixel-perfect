@@ -3,12 +3,12 @@
 }
 
 body {
-    background-color: lightsalmon;
+    background-color: red;
 }
 
 .container{
     display: flex;
-    background-color: lightsalmon;
+    background-color: red;
     min-height: 100vh;
     flex-wrap: wrap;
     margin: 2.5em 8.8em 2.5em; 
@@ -18,7 +18,7 @@ body {
     font-size: 20px;
     text-align: center;
     padding: 10px;
-    width: 67%;
+    width: 66%;
     flex-direction: column;
 }
 
@@ -61,13 +61,14 @@ body {
 .aside {
     font-size: 20px;
     text-align: center;
-    padding: 10px;
+    padding: 10px 15px 10px 10px;
     width: 33%;
+    margin-left: 11px;
     flex-direction: column;
     align: left;
 }
 
-.blackmountain {
+.content-photo {
     object-fit: cover;
     width:100%;
     height: 23.5em;
@@ -168,21 +169,18 @@ ul.icons {
     display:flex;
     align-content: center;
     gap: 13px;
-    color:#ccc;
+    color:#aaaaaa;
     padding:10px;
     font-size: 13px;
     margin-right:10%;
 }
 
-
 .aside article {
     font-family: Lato;
     font-size: 15px;
     line-height: 1.6;
-    padding: 15px;
-    margin: -10px 5px 5px 5px;
-    
-
+    padding: 25px 15px 15px 25px;
+    margin: -15px 5px 5px 5px;
 }
 
 ul.sidecons {
@@ -191,10 +189,11 @@ ul.sidecons {
     gap: 13.5px;
     color: #ccc;
     font-size: 14px;
-    padding: 10px 10px 20px 10px;
+    padding: 10px 10px 30px 10px;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: -6px;
 }
 
 .sidecons li {
@@ -214,9 +213,10 @@ ul.sidecons {
     font-style: italic;
     display: flex;
     padding-left: 2em;
+    padding-bottom: 3em;
     border-top: solid 1.5px #ccc;
     width: 90%;
-    margin: 0 auto;
+    margin: 5px auto;
     justify-content: space-between;
     align-items: center;
     
@@ -225,9 +225,9 @@ ul.sidecons {
 .bottomicons {    
     list-style-type: none;
     display: flex;
-    gap: 13px;
-    color: #ccc;
-    font-size: 15px;
+    gap: 14px;
+    color: #aaaaaa;
+    font-size: 16px;
     align-items: center;
 }
 
