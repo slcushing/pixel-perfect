@@ -387,8 +387,55 @@ footer {
     height: 35px;
     width: 35px;
     padding: 0;
-    margin-right: 2em;
-    
+    margin-right: 2em; 
 }
 
+button.continue:hover {
+    background-color: #CB613D;
+    color: white;
+}
 
+#fb:hover {
+    color: #3871E3;
+    cursor: pointer;
+}
+
+#twitter:hover {
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+#pintrest:hover {
+    color: #a82525;
+    cursor: pointer;
+}
+
+#instagram:hover{
+    color: #bd438f;
+    cursor: pointer;
+}
+
+#google:hover {
+    color: #59a65c;
+    cursor: pointer;
+}
+
+#linkedin:hover {
+    color: #2c60b8;
+    cursor: pointer;
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+.arrow-up:hover {
+    opacity: 1;
+}
+
+@media (max-width: 520px) {
+    .container {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  }
