@@ -3,12 +3,12 @@
 }
 
 body {
-  background-color: red;
+  background-color: #f4f4f4;
 }
 
 .container {
   display: flex;
-  background-color: red;
+  background-color: #f4f4f4;
   min-height: 100vh;
   flex-wrap: wrap;
   margin: 2.5em 8.8em 2.5em;
@@ -184,7 +184,7 @@ ul.icons {
 }
 
 .bio {
-  margin-bottom: 2.5em;
+  margin-bottom: 2.2em;
 }
 
 ul.sidecons {
@@ -242,6 +242,7 @@ ul.sidecons {
   margin-bottom: 15px;
   display: flex;
   align-items: flex-start;
+  color: #444444;
 }
 
 .popular {
@@ -262,6 +263,7 @@ ul.sidecons {
   display: flex;
   margin-bottom: 8px;
   margin-left: 30px;
+  color: #777777;
 }
 
 .popular img {
@@ -287,15 +289,12 @@ ul.sidecons {
 .latest {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   margin-bottom: 2.5em;
 }
 
-.latest img {
-  object-fit: cover;
+.latest-img {
   width: 28%;
-  display: flex;
-  justify-content: flex-start;
+  padding-left: 10px;
 }
 
 .latest span {
@@ -341,12 +340,43 @@ ul.sidecons {
 
 .pic-ribbon {
   display: flex;
+  left: 0;
   margin: 0;
+  padding: 0;
+  width: 180px;
+  height: 180px;
 }
 
-.pic-ribbon img {
+footer {
   display: flex;
-  height: 20%;
+}
+
+.footie {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding-bottom: 18px;
+}
+
+.footie p {
+  font-family: Lato;
+  font-size: 13px;
+  color: white;
+  margin-left: 43em;
+  padding-top: 8px;
+}
+
+.arrow-up {
+  background-color: #CB613D;
+  color: white;
+  font-size: 16px;
+  border-radius: 2px;
+  opacity: 0.5;
+  border: none;
+  height: 35px;
+  width: 35px;
+  padding: 0;
+  margin-right: 2em;
 }
 
 /*# sourceMappingURL=styles.css.map */
